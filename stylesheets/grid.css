@@ -1,0 +1,42 @@
+.parent{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:200px 200px 100px;
+    gap:3px;
+
+}
+
+.c11{
+    background-color: aqua;
+   
+}
+.c12{
+    background-color: peru;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+}
+.c21{
+background-color: gray;
+grid-column-start: 1;
+    grid-column-end: 3;
+}
+.c22{
+    background-color: cadetblue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+   
+}
+.c31{
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+.c32{
+    background-color: peru;
+    grid-column-start: 2;
+    grid-column-end: 4;
+   
+    
+}

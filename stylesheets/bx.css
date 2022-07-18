@@ -1,0 +1,23 @@
+h1{
+    background-color: aqua;
+  /*  border-style: solid;
+    border-color: red;
+    border-width: 5px;*/
+    border:5px red solid;
+  /*  padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding:20px 30px 40px 50px;*/
+    padding:20px;
+}
+.m-tb{
+    margin:20px;
+}
+img{
+    border-style: solid;
+    width:50%;
+    height:50%;
+    border-radius: 50%;
+
+}
