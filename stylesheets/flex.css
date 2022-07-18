@@ -1,0 +1,29 @@
+.parent{
+    display: flex;
+    flex-direction: row-reverse;
+    height:100px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.c-h{
+    width: 20%;
+}
+.c11{
+    background-color: aqua;
+  
+}
+.c12{
+    background-color: peru;
+    
+  
+    
+}
+.c21{
+background-color: gray;
+
+
+}
+.c22{
+    background-color: cadetblue;
+   
+}

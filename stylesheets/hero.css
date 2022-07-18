@@ -1,0 +1,38 @@
+.parent{
+    background-image: url(../Sample\ Pictures/Desert.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;  
+    position: relative;
+ 
+}
+.content{
+    position: absolute;
+    
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+h1{
+    color:white
+}
+button{
+    background-color: burlywood;
+    color:crimson;
+    padding:10px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+button:hover{
+    color: burlywood;
+    background-color:crimson;
+    padding:20px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+

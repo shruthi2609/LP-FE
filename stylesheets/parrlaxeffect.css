@@ -1,0 +1,14 @@
+.parrallax{
+    background-image: url(../images/Lighthouse.jpg);
+    height: 500px;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    background-color: rgb(57, 55, 55);
+    color:white;
+    opacity:0.5;
+    font-size:34px;
+}
