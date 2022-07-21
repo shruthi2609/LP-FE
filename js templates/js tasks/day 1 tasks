@@ -52,3 +52,37 @@ let arr = [5, 3, 8, 1];
 let filtered = filterRange(arr, 1, 4);
 alert( filtered ); // 3,1 (matching values)
 
+
+level 4:
+
+1.Write the function camelize(str) that changes dash-separated words like “my-shortstring” into camel-cased “myShortString”.
+That is: removes all dashes, each word after dash becomes uppercased.
+Examples:
+camelize("background-color") == 'backgroundColor';
+camelize("list-style-image") == 'listStyleImage';
+camelize("-webkit-transition") == 'WebkitTransition';
+P.S. Hint: use split to split the string into an array, transform it and join back.
+
+
+Create a function unique_elements(arr) that should return an array with unique items
+of arr.
+For instance:
+function unique_elements(arr) {
+ /* your code */
+}
+let strings = ["React Js", "JavaScript", "React Js", "JavaScript",
+ "JavaScript", "JavaScript", "React Js", "React Js"
+];
+alert( unique(strings) ); // React Js, JavaScript
+
+
+
+
+4.Create a function truncate(str, maxlength) that checks the length of the str and, if it
+exceeds maxlength – replaces the end of str with the ellipsis character "…", to make its
+length equal to maxlength.
+The result of the function should be the truncated (if needed) string.
+For instance:
+truncate("What I'd like to tell on this topic is:", 20) = "What I'd like to te…"
+truncate("Hi everyone!", 20) = "Hi everyone!"
+
