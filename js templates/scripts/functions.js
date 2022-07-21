@@ -53,4 +53,24 @@ console.log(x,y)
 let arr=[20,"john","john@gmail.com"]
 //let [age,[userdetails,email]]=arr
 let [age,...userdetails]=arr // rest/spread operator
-console.log(userdetails)*/
+let a=10
+if(a<=10){
+    const res1="category : child"
+    console.log("inside",res1)
+}
+console.log("outside",res1)
+
+function sample(){
+    const res="some result"
+    console.log("inside",res)
+}
+sample()
+console.log(userdetails)
+console.log("outside",res)
+
+const fun1=()=>{console.log("fun1")
+console.log("fun2")
+}
+fun1()*/
+
+
