@@ -1,16 +1,20 @@
 let contact=document.querySelector('.contact-container')
-fetch('http://localhost:3001/empDetails/2').then((res)=>{return res.json()}).then((res)=>{console.log(res)
+fetch('http://localhost:3001/empDetails').then((res)=>{return res.json()}).then((res)=>{console.log(res)
     printUI(res)}).catch((Err)=>console.log(Err))
 
 function printUI(data){
-contact.innerHTML=`<div class="col-sm-6">
-<div class="card">
-  <div class="card-body">
-    <h3>${data.fname}</h3>
-    <p>${data.email}</p>
-    <p>${data.phone}</p>
-    <button>delete</button>
+  let output=''
+data.map((item)=>{
+ output+=`<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <h3>${item.fname}</h3>
+      <p>${item.email}</p>
+      <p>${item.phone}</p>
+      <button>delete</button>
+    </div>
   </div>
-</div>
-</div>`
+  </div>`
+})
+contact.innerHTML=output
 }
