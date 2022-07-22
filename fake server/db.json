@@ -1,20 +1,23 @@
 {
-    "empDetails":[
-        {
-            "id":0,
-            "fname":"peter",
-            "email":"peter@gmail.com"
-        },
-        {
-            "id":1,
-            "fname":"henry",
-            "email":"henry@gmail.com"
-        },
-        {
-            "id":2,
-            "fname":"carry",
-            "email":"carry@gmail.com",
-            "city":"delhi"
-        }
-    ]
+  "empDetails": [
+    {
+      "id":0,
+      "fname":"peter",
+      "email": "peter12@gmail.com",
+      "phone":828392838
+      
+    },
+    {
+      "id": 3,
+      "fname": "harry",
+      "email": "harry@gmail.com",
+      "phone":25636253
+    },
+    {
+      "id": 2,
+      "fname": "Jennifer",
+      "email": "trainee@gmail.com",
+      "phone": 297327888
+    }
+  ]
 }
