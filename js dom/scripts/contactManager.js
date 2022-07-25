@@ -1,4 +1,5 @@
 let contact=document.querySelector('.contact-container')
+
 fetch('http://localhost:3001/empDetails').then((res)=>{return res.json()}).then((res)=>{console.log(res)
     printUI(res)}).catch((Err)=>console.log(Err))
 
@@ -18,3 +19,5 @@ data.map((item)=>{
 })
 contact.innerHTML=output
 }
+
+
