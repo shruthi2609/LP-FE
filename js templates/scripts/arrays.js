@@ -52,7 +52,12 @@ console.log(users.find(
 ))
 
 let marks=[90,95,90,90]
-console.log(marks.every((item)=>item>=90))*/
+console.log(marks.every((item)=>item>=90))
+
+let a=[20,90,100]
+let b=[78,90,12]
+let c=[...a,...b,900]
+console.log(c)*/
 
 
 

@@ -49,6 +49,17 @@ console.log(listofusers[0].phone)
 
 const age=10;
 
+/*function sample(){
+a=10 //hoisting 
+let fname="peter"
+console.log("inside",a)
+console.log("inside",fname)
+}
+console.log("outside",a)
+sample()
+console.log("outside",fname)
+*/
+
 
 
 

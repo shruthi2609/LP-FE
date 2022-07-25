@@ -58,7 +58,21 @@ const userPromise=new Promise(
     }).then((result3)=>{console.log("inside block3",result3)}).catch((res)=>console.log("catch",res))*/
 
 
-
+    const userPromise2=new Promise(
+        (resolve,reject)=>{
+        let user
+        if(user){
+            resolve("user if fetched")
+        }
+        else{
+            reject("user is not fetched")
+        }
+        }
+        )
+        //promise handlers -> then catch finally
+      
+        userPromise2.then((result)=>{return "something"}).catch((res)=>console.log(res)).then(()=>console.log("Result"))
+       
 
 
 
